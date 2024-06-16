@@ -2,6 +2,8 @@ const container = document.querySelector(".container");
 
 const rowsNum = 5;
 
+randomImage();
+
 function randomImage() {
   for (let i = 0; i < rowsNum; i++) {
     const row = document.createElement("div");
@@ -15,5 +17,3 @@ function randomImage() {
     container.appendChild(row);
   }
 }
-
-randomImage();
